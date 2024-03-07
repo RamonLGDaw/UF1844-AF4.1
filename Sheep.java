@@ -11,19 +11,19 @@ public class Sheep extends Animal {
 
     @Override
     public void move() {
-        System.out.println("The sheep moves into de Ark");
+        System.out.println("La oveja se mueve hacia el arca.");
         
     }
 
     @Override
     public void stop() {
-        System.out.println("The sheep stops moving");
+        System.out.println("La oveja deja de moverse.");
         
     }
 
     @Override
     public String toString() {
-        return "The sheep eats " + getFeeding();
+        return "La oveja se alimenta de " + getFeeding();
     }
 
     public void makeSound(){

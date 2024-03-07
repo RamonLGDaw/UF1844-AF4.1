@@ -9,18 +9,18 @@ public class Lion extends Animal {
 
     @Override
     public void move() {
-        System.out.println("The lion moves into the Ark.");
+        System.out.println("El león se mueve hacia el arca.");
     }
 
     @Override
     public void stop() {
-        System.out.println("The lion stops moving");
-        
+        System.out.println("El león deja de moverse.");
+
     }
 
     @Override
     public String toString() {
-        
+
         return "The lion eats " + getFeeding();
     }
 

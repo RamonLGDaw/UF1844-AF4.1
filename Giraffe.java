@@ -9,18 +9,18 @@ public class Giraffe extends Animal {
 
     @Override
     public void move() {
-       System.out.println("The giraffe moves into the ark.");
-        
+        System.out.println("La jirafa se mueve hacia el arca.");
+
     }
 
     @Override
     public void stop() {
-        System.out.println("The giraffe stops moving.");
+        System.out.println("La jirafa para de moverse.");
     }
 
     @Override
     public String toString() {
-        
+
         return "The height of the giraffe is" + getHeight();
     }
 
@@ -31,6 +31,4 @@ public class Giraffe extends Animal {
     public void setHeight(double height) {
         this.height = height;
     }
-    
-    
 }
